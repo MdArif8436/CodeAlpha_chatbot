@@ -1,0 +1,29 @@
+# IT Mate Chatbot — files that should never be committed
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging artefacts (only relevant if the project is
+# packaged later; the chatbot itself runs directly from the .py file)
+build/
+dist/
+*.egg-info/
+
+# Test and coverage artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

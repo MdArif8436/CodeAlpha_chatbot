@@ -1,0 +1,10 @@
+# IT Mate Chatbot — requirements
+#
+# This project uses only the Python standard library, so there are no
+# third-party packages to install. This file is intentionally empty of
+# dependencies; it exists so the repository follows the standard
+# Python project layout and `pip install -r requirements.txt` succeeds
+# without doing anything.
+#
+# For development, the test suite also needs nothing extra:
+#   python -m unittest test_chatbot.py -v
